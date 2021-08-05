@@ -1,0 +1,32 @@
+body{
+    margin:0;
+}
+
+.main__content{
+    background-image: url("http://placehold.it/600x600");
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: blue; */
+}
+.main__content .center{
+    text-align: center;
+    padding: 20px;
+}
+.center .top__content{
+    margin-bottom: 150px;
+}
+.top__content h1{
+   text-transform: capitalize;
+} 
+.main__content .join__button{
+    padding: 10px 20px;
+    background-color: #78b51b;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main__content .join__button:hover{
+    background-color: #3f5b16;
+}

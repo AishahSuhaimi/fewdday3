@@ -1,7 +1,15 @@
 body{
     margin:0;
 }
-
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:last-child{
+    border: 2px solid #78b51b;
+    color: #78b51b;
+}
 .main__content{
     background-image: url("http://placehold.it/600x600");
     height: 650px;

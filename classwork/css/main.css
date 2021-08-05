@@ -56,3 +56,11 @@
     background-color: rgb(11, 94, 158);
     padding: 8px 15px;
 }
+
+div.container{
+    width: 60%;
+    margin: 0 auto;
+}
+.circle__img{
+    border-radius: 50%;
+}

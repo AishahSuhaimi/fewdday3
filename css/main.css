@@ -40,6 +40,9 @@ nav a:last-child{
 .top__content h1{
    text-transform: capitalize;
 } 
+.top__content h3{
+    letter-spacing: 5px;
+ } 
 .main__content .join__button{
     padding: 10px 20px;
     background-color: #78b51b;

@@ -1,0 +1,58 @@
+.container{
+    text-align: center;
+}
+.container a{
+    color: black;
+    text-decoration: none;
+}
+.container ul.menu__top li:first-child{
+    color: gray;
+    list-style-type: none;
+}
+/* ctrl + / */
+.container ul{
+    clear: both; /* start on next line */
+    width: 55%;
+    margin: 0 auto;
+    height: 30px;
+}
+.container ul.menu__top li{
+    float:left;
+    margin-right: 30px;
+}
+
+.container nav.menu__bottom{
+    margin-top: 40px;
+}
+.container nav.menu__bottom a{
+    margin-right: 20px;
+}
+.container nav.menu__bottom a:last-child{
+    margin-right: 0px;
+}
+
+#banner{
+    background-image: url("http://placehold.it/500x600");
+    height: 500px;
+    margin-top: 30px;
+}
+
+#banner section.container{
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+#banner section .buttons{
+    padding-top:5px;
+}
+#banner section .buttons a:first-child{
+    color: rgb(11, 94, 158);
+    background-color: white;
+    padding: 8px 15px;
+}
+
+#banner section .buttons a:last-child{
+    color: white; 
+    background-color: rgb(11, 94, 158);
+    padding: 8px 15px;
+}

@@ -1,3 +1,6 @@
+body{
+    margin:0;
+}
 .container{
     text-align: center;
 }
@@ -58,6 +61,12 @@ header.container{
 #banner section .buttons a:last-child{
     color: white; 
     background-color: rgb(11, 94, 158);
+    padding: 8px 15px;
+}
+
+#banner section .buttons a:last-child:hover{
+    color: white; 
+    background-color: rgb(64, 137, 193);
     padding: 8px 15px;
 }
 
